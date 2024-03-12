@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main-container{
+    background-color: #fff;
+            background-image: url('national_logo.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            margin: 0 2em;
+        }
+
+    .heading{
+        background-color: #f0f5f5;
+        background-image: url("dreamtime.jpg");
+        background-repeat: no-repeat;
+        text-align: center;
+    }
+
+    #footer{
+       background-color: #000;
+       text-align: center;
+       color: #fff;
+       font-size: 1em;
+       padding: 0.75em 0;
+    }
+    #navigation{
+        margin: 0.5em 1em;
+        padding: 0.2em 0.5em;
+        font-size: 1.25em;
+        color: white;
+        background-color: black;
+        text-decoration: none;
+
+    }
+#navigation a:hover{
+    color: #fff;
+    background-color: #000;
+
+}
+.sub-container .clarification span {
+    text-decoration: line-through;
+    text-decoration-color: green;
+    text-decoration-style: dashed;
+}
+.sub-container p {
+    text-align: justify;
+    font-size: 1.2em;
+    padding: 0.3em 1em;
+}
+.sub-container ol {
+    list-style-type: upper-case;
+    font-size: 1.5em;
+}
+
+.sub-container ol li:nth-child(odd) {
+    font-style: italic;
+    font-weight: bold;
+    background-color: #ccc;
+}
+
+.sub-container ol li:nth-child(5) {
+    text-transform: uppercase;
+}
+    
